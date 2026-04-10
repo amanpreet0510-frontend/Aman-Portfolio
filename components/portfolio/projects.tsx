@@ -90,7 +90,7 @@ export function Projects() {
                     {project.description}
                   </p>
 
-                  <div className="flex flex-wrap gap-2 mb-6">
+                  {/* <div className="flex flex-wrap gap-2 mb-6">
                     {project.tags.map((tag) => (
                       <Badge
                         key={tag}
@@ -100,7 +100,7 @@ export function Projects() {
                         {tag}
                       </Badge>
                     ))}
-                  </div>
+                  </div> */}
 
                   <Button
                     variant="outline"
